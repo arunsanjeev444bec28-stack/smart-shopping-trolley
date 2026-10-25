@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="1860" viewBox="0 0 1640 1860" font-family='Arial, "Liberation Sans", Helvetica, sans-serif'>
+<defs><marker id="ah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 z" fill="#1b1f23"/></marker></defs>
+<rect width="1640" height="1860" fill="#ffffff"/>
+<text x="40" y="34.0" font-size="30" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="40" dy="0">Smart Shopping Trolley - Flowchart</tspan></text>
+<rect x="175.0" y="63.0" width="170" height="44" rx="22.0" fill="#e5e7eb" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="260" y="85.0" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="260" dy="0">START</tspan></text>
+<rect x="110.0" y="139.0" width="300" height="52" rx="4" fill="#dbeafe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="260" y="153.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="260" dy="0">Initialise OLED, RFID reader,</tspan><tspan x="260" dy="22.5">buzzer and checkout button</tspan></text>
+<rect x="110.0" y="219.0" width="300" height="52" rx="4" fill="#dbeafe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="260" y="233.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="260" dy="0">Generate unique Cart ID;</tspan><tspan x="260" dy="22.5">start Wi-Fi (non-blocking)</tspan></text>
+<rect x="110.0" y="299.0" width="300" height="52" rx="4" fill="#dbeafe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="260" y="313.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="260" dy="0">Tare load cell</tspan><tspan x="260" dy="22.5">(basket must be empty)</tspan></text>
+<rect x="110.0" y="379.0" width="300" height="52" rx="4" fill="#dbeafe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="260" y="393.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="260" dy="0">Show home screen</tspan><tspan x="260" dy="22.5">Items: 0 | Rs 0</tspan></text>
+<polygon points="132.0,460.0 410.0,460.0 388.0,510.0 110.0,510.0" fill="#e0f2fe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="260" y="485.0" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="260" dy="0">Read load-cell weight</tspan></text>
+<polygon points="260,545.0 385.0,600 260,655.0 135.0,600" fill="#fff3cd" stroke="#7a5b00" stroke-width="1.6"/>
+<text x="260" y="588.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="260" dy="0">Weight up &gt; 20 g</tspan><tspan x="260" dy="22.5">without RFID scan?</tspan></text>
+<polygon points="260,715.0 385.0,770 260,825.0 135.0,770" fill="#fff3cd" stroke="#7a5b00" stroke-width="1.6"/>
+<text x="260" y="758.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="260" dy="0">Checkout</tspan><tspan x="260" dy="22.5">button pressed?</tspan></text>
+<polygon points="260,885.0 385.0,940 260,995.0 135.0,940" fill="#fff3cd" stroke="#7a5b00" stroke-width="1.6"/>
+<text x="260" y="928.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="260" dy="0">RFID tag</tspan><tspan x="260" dy="22.5">detected?</tspan></text>
+<polyline points="260,107 260,139" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="260,191 260,219" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="260,271 260,299" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="260,351 260,379" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="260,431 260,460" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="260,510 260,545" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="260,655 260,715" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<rect x="216.46" y="660.1" width="31.08" height="23.799999999999997" fill="#ffffff" opacity="0.92"/>
+<text x="232" y="672.0" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="232" dy="0">No</tspan></text>
+<polyline points="260,825 260,885" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<rect x="216.46" y="833.1" width="31.08" height="23.799999999999997" fill="#ffffff" opacity="0.92"/>
+<text x="232" y="845.0" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="232" dy="0">No</tspan></text>
+<polyline points="385,600 562,600" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<rect x="452.19" y="576.1" width="41.620000000000005" height="23.799999999999997" fill="#ffffff" opacity="0.92"/>
+<text x="473" y="588.0" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="473" dy="0">Yes</tspan></text>
+<rect x="562.0" y="558.0" width="396" height="84" rx="4" fill="#fee2e2" stroke="#991b1b" stroke-width="1.6"/>
+<text x="760" y="577.5" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="760" dy="0">Alarm ON: continuous buzzer;</tspan><tspan x="760" dy="22.5">OLED: UNSCANNED ITEM</tspan><tspan x="760" dy="22.5">(stops on tag scan or item removal)</tspan></text>
+<polyline points="760,642 760,685 260,685" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="385,770 1065,770" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<rect x="699.19" y="746.1" width="41.620000000000005" height="23.799999999999997" fill="#ffffff" opacity="0.92"/>
+<text x="720" y="758.0" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="720" dy="0">Yes</tspan></text>
+<polyline points="135,940 40,940" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="74.46000000000001" y="916.1" width="31.08" height="23.799999999999997" fill="#ffffff" opacity="0.92"/>
+<text x="90" y="928.0" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="90" dy="0">No</tspan></text>
+<polyline points="385,940 620,940" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<rect x="479.19" y="916.1" width="41.620000000000005" height="23.799999999999997" fill="#ffffff" opacity="0.92"/>
+<text x="500" y="928.0" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="500" dy="0">Yes</tspan></text>
+<polygon points="632.0,915.0 910.0,915.0 888.0,965.0 610.0,965.0" fill="#e0f2fe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="760" y="940.0" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="760" dy="0">Read tag UID</tspan></text>
+<polygon points="760,995.0 885.0,1050 760,1105.0 635.0,1050" fill="#fff3cd" stroke="#7a5b00" stroke-width="1.6"/>
+<text x="760" y="1038.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="760" dy="0">UID in</tspan><tspan x="760" dy="22.5">product list?</tspan></text>
+<polyline points="760,965 760,995" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="635,1050 575,1050" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<rect x="589.46" y="1018.1" width="31.08" height="23.799999999999997" fill="#ffffff" opacity="0.92"/>
+<text x="605" y="1030.0" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="605" dy="0">No</tspan></text>
+<rect x="285.0" y="1018.0" width="290" height="64" rx="4" fill="#fee2e2" stroke="#991b1b" stroke-width="1.6"/>
+<text x="430" y="1038.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="430" dy="0">Warning beep;</tspan><tspan x="430" dy="22.5">OLED: UNKNOWN TAG</tspan></text>
+<polyline points="305,1050 40,1050" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="760,1105 760,1128" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<rect x="773.19" y="1105.1" width="41.620000000000005" height="23.799999999999997" fill="#ffffff" opacity="0.92"/>
+<text x="794" y="1117.0" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="794" dy="0">Yes</tspan></text>
+<rect x="595.0" y="1128.0" width="330" height="84" rx="4" fill="#dbeafe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="760" y="1147.5" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="760" dy="0">Quantity + 1, cart total updated;</tspan><tspan x="760" dy="22.5">short beep; OLED shows name,</tspan><tspan x="760" dy="22.5">price, qty, total; start 6 s grace</tspan></text>
+<polyline points="760,1212 760,1250 40,1250 40,402" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<circle cx="40" cy="940" r="3.5" fill="#1b1f23"/>
+<circle cx="40" cy="1050" r="3.5" fill="#1b1f23"/>
+<circle cx="40" cy="385" r="17" fill="#ffffff" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="40" y="385.0" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="40" dy="0">A</tspan></text>
+<polyline points="57,385 110,385" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polygon points="1190,715.0 1315.0,770 1190,825.0 1065.0,770" fill="#fff3cd" stroke="#7a5b00" stroke-width="1.6"/>
+<text x="1190" y="758.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1190" dy="0">Alarm</tspan><tspan x="1190" dy="22.5">active?</tspan></text>
+<polyline points="1315,770 1451,770" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<rect x="1362.19" y="746.1" width="41.620000000000005" height="23.799999999999997" fill="#ffffff" opacity="0.92"/>
+<text x="1383" y="758.0" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1383" dy="0">Yes</tspan></text>
+<circle cx="1470" cy="770" r="17" fill="#ffffff" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="1470" y="770.0" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1470" dy="0">A</tspan></text>
+<text x="1470" y="806.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000" font-style="italic" dominant-baseline="central"><tspan x="1470" dy="0">checkout blocked</tspan></text>
+<polyline points="1190,825 1190,870" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<rect x="1198.46" y="836.1" width="31.08" height="23.799999999999997" fill="#ffffff" opacity="0.92"/>
+<text x="1214" y="848.0" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1214" dy="0">No</tspan></text>
+<polygon points="1190,870.0 1315.0,925 1190,980.0 1065.0,925" fill="#fff3cd" stroke="#7a5b00" stroke-width="1.6"/>
+<text x="1190" y="913.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1190" dy="0">Cart</tspan><tspan x="1190" dy="22.5">empty?</tspan></text>
+<polyline points="1315,925 1362,925" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<rect x="1319.19" y="888.1" width="41.620000000000005" height="23.799999999999997" fill="#ffffff" opacity="0.92"/>
+<text x="1340" y="900.0" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1340" dy="0">Yes</tspan></text>
+<rect x="1365.0" y="895.0" width="270" height="60" rx="4" fill="#fee2e2" stroke="#991b1b" stroke-width="1.6"/>
+<text x="1500" y="913.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1500" dy="0">Warning beep;</tspan><tspan x="1500" dy="22.5">OLED: CART IS EMPTY</tspan></text>
+<polyline points="1500,955 1500,988" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<circle cx="1500" cy="1005" r="17" fill="#ffffff" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="1500" y="1005.0" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1500" dy="0">A</tspan></text>
+<polyline points="1190,980 1190,1025" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<rect x="1196.46" y="991.1" width="31.08" height="23.799999999999997" fill="#ffffff" opacity="0.92"/>
+<text x="1212" y="1003.0" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1212" dy="0">No</tspan></text>
+<rect x="1020.0" y="1022.0" width="340" height="56" rx="4" fill="#dbeafe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="1190" y="1038.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1190" dy="0">Print itemised bill on</tspan><tspan x="1190" dy="22.5">Serial Monitor</tspan></text>
+<rect x="1030.0" y="1100.0" width="320" height="60" rx="4" fill="#dbeafe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="1190" y="1118.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1190" dy="0">OLED: CHECKOUT COMPLETE;</tspan><tspan x="1190" dy="22.5">items + total shown for 2.5 s</tspan></text>
+<rect x="1030.0" y="1180.0" width="320" height="60" rx="4" fill="#dbeafe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="1190" y="1198.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1190" dy="0">Display fixed UPI payment QR</tspan><tspan x="1190" dy="22.5">(stays until EN/RESET)</tspan></text>
+<polygon points="1042.0,1267.0 1360.0,1267.0 1338.0,1323.0 1020.0,1323.0" fill="#e0f2fe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="1190" y="1283.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1190" dy="0">Send cart (UID + qty, Cart ID,</tspan><tspan x="1190" dy="22.5">device token) by HTTP POST</tspan></text>
+<polyline points="1190,1075 1190,1100" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="1190,1160 1190,1180" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="1190,1240 1190,1267" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="1190,1323 1190,1360" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polygon points="1190,1360.0 1325.0,1415 1190,1470.0 1055.0,1415" fill="#fff3cd" stroke="#7a5b00" stroke-width="1.6"/>
+<text x="1190" y="1403.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1190" dy="0">Server replied</tspan><tspan x="1190" dy="22.5">HTTP 200 / 201?</tspan></text>
+<polyline points="1055,1415 990,1415" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<rect x="1002.46" y="1391.1" width="31.08" height="23.799999999999997" fill="#ffffff" opacity="0.92"/>
+<text x="1018" y="1403.0" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1018" dy="0">No</tspan></text>
+<rect x="770.0" y="1385.0" width="220" height="60" rx="4" fill="#fff3cd" stroke="#7a5b00" stroke-width="1.6"/>
+<text x="880" y="1403.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="880" dy="0">Wait 4 s;</tspan><tspan x="880" dy="22.5">retry same Cart ID</tspan></text>
+<polyline points="880,1387 880,1295 1030,1295" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="1190,1470 1190,1492" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<rect x="1203.19" y="1466.1" width="41.620000000000005" height="23.799999999999997" fill="#ffffff" opacity="0.92"/>
+<text x="1224" y="1478.0" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1224" dy="0">Yes</tspan></text>
+<rect x="1020.0" y="1492.0" width="340" height="76" rx="4" fill="#dcfce7" stroke="#166534" stroke-width="1.6"/>
+<text x="1190" y="1507.5" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1190" dy="0">Server checks token, prices items</tspan><tspan x="1190" dy="22.5">from products table, saves bill</tspan><tspan x="1190" dy="22.5">(bill no., date, time) in SQLite</tspan></text>
+<polygon points="1042.0,1602.0 1360.0,1602.0 1338.0,1658.0 1020.0,1658.0" fill="#dcfce7" stroke="#166534" stroke-width="1.6"/>
+<text x="1190" y="1618.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1190" dy="0">Dashboard lists the bill:</tspan><tspan x="1190" dy="22.5">View / Print</tspan></text>
+<rect x="970.0" y="1691.0" width="440" height="48" rx="24.0" fill="#e5e7eb" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="1190" y="1715.0" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1190" dy="0">END (press EN/RESET for a new cart)</tspan></text>
+<polyline points="1190,1568 1190,1602" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="1190,1658 1190,1693" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="40" y="1470.0" font-size="19" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="40" dy="0">Legend</tspan></text>
+<rect x="40" y="1490" width="90" height="32" rx="16" fill="#e5e7eb" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="145" y="1506.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="145" dy="0">Start / End</tspan></text>
+<rect x="40" y="1536" width="90" height="32" rx="3" fill="#dbeafe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="145" y="1552.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="145" dy="0">Process (trolley / ESP32)</tspan></text>
+<polygon points="54,1582 130,1582 116,1614 40,1614" fill="#e0f2fe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="145" y="1598.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="145" dy="0">Input / Output</tspan></text>
+<polygon points="85,1628 130,1646 85,1664 40,1646" fill="#fff3cd" stroke="#7a5b00" stroke-width="1.6"/>
+<text x="145" y="1646.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="145" dy="0">Decision</tspan></text>
+<rect x="40" y="1676" width="90" height="32" rx="3" fill="#dcfce7" stroke="#166534" stroke-width="1.6"/>
+<text x="145" y="1692.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="145" dy="0">Laptop server</tspan></text>
+<rect x="40" y="1722" width="90" height="32" rx="3" fill="#fee2e2" stroke="#991b1b" stroke-width="1.6"/>
+<text x="145" y="1738.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="145" dy="0">Alert / warning</tspan></text>
+<circle cx="85" cy="1786" r="15" fill="#ffffff" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="85" y="1786.0" font-size="17" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="85" dy="0">A</tspan></text>
+<text x="145" y="1786.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="145" dy="0">Return to home screen (loop)</tspan></text>
+</svg>

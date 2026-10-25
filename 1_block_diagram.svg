@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1000" viewBox="0 0 1900 1000" font-family='Arial, "Liberation Sans", Helvetica, sans-serif'>
+<defs><marker id="ah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 z" fill="#1b1f23"/></marker></defs>
+<rect width="1900" height="1000" fill="#ffffff"/>
+<text x="40" y="34.0" font-size="30" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="40" dy="0">Smart Shopping Trolley - Block Diagram</tspan></text>
+<rect x="660" y="60" width="400" height="80" rx="6" fill="#e5e7eb" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="860" y="89.375" font-size="17" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="860" dy="0">Power: USB 5 V / regulated supply</tspan><tspan x="860" dy="21.25">(ESP32 regulator feeds 3.3 V modules)</tspan></text>
+<polyline points="860,140 860,200" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<rect x="660" y="200" width="400" height="380" rx="6" fill="#dbeafe" stroke="#1f3a5f" stroke-width="2.6"/>
+<text x="860" y="232.0" font-size="20" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="860" dy="0">ESP32 DevKit (controller)</tspan></text>
+<text x="685" y="276.875" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="685" dy="0">- Reads RFID tag UID</tspan><tspan x="685" dy="21.25">- Finds product, price, quantity</tspan><tspan x="685" dy="21.25">- Item count and cart total</tspan><tspan x="685" dy="21.25">- Load-cell weight alarm logic</tspan><tspan x="685" dy="21.25">- OLED screens + fixed UPI QR</tspan><tspan x="685" dy="21.25">- Wi-Fi client sends the bill</tspan></text>
+<text x="860" y="545.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000" font-style="italic" dominant-baseline="central"><tspan x="860" dy="0">Checkout button: bill + QR screen</tspan></text>
+<text x="190" y="170.0" font-size="19" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="190" dy="0">INPUTS</tspan></text>
+<rect x="40" y="200" width="300" height="100" rx="6" fill="#e0f2fe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="190" y="238.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="190" dy="0">MFRC522 RFID reader</tspan><tspan x="190" dy="22.5">+ 6 RFID tags</tspan></text>
+<polyline points="340,250 660,250" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="500" y="204.625" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="500" dy="0">SPI</tspan><tspan x="500" dy="18.75">GPIO 5,4,18,23,19</tspan></text>
+<rect x="40" y="350" width="300" height="100" rx="6" fill="#e0f2fe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="190" y="388.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="190" dy="0">Load cell + HX711</tspan><tspan x="190" dy="22.5">(weight alarm)</tspan></text>
+<polyline points="340,400 660,400" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="500" y="354.625" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="500" dy="0">DT / SCK</tspan><tspan x="500" dy="18.75">GPIO 32, 33</tspan></text>
+<rect x="40" y="500" width="300" height="100" rx="6" fill="#e0f2fe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="190" y="538.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="190" dy="0">Checkout</tspan><tspan x="190" dy="22.5">push button</tspan></text>
+<polyline points="340,550 660,550" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="500" y="504.625" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="500" dy="0">GPIO 14</tspan><tspan x="500" dy="18.75">INPUT_PULLUP</tspan></text>
+<text x="1500" y="170.0" font-size="19" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1500" dy="0">OUTPUTS</tspan></text>
+<rect x="1350" y="240" width="300" height="100" rx="6" fill="#e0f2fe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="1500" y="278.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1500" dy="0">SSD1306 OLED</tspan><tspan x="1500" dy="22.5">cart, alerts, UPI QR</tspan></text>
+<polyline points="1060,290 1350,290" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="1205" y="248.625" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1205" dy="0">I2C</tspan><tspan x="1205" dy="18.75">GPIO 21, 22</tspan></text>
+<rect x="1350" y="420" width="300" height="100" rx="6" fill="#e0f2fe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="1500" y="458.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1500" dy="0">Buzzer</tspan><tspan x="1500" dy="22.5">scan beep + alarm</tspan></text>
+<polyline points="1060,470 1350,470" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="1205" y="446.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1205" dy="0">GPIO 27</tspan></text>
+<rect x="660" y="740" width="400" height="100" rx="6" fill="#fff3cd" stroke="#7a5b00" stroke-width="1.6"/>
+<text x="860" y="778.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="860" dy="0">Wi-Fi network (2.4 GHz)</tspan><tspan x="860" dy="22.5">router / hotspot</tspan></text>
+<polyline points="860,580 860,740" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="885" y="650.625" font-size="15" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="885" dy="0">HTTP POST (JSON)</tspan><tspan x="885" dy="18.75">Cart ID, tag UIDs, qty, token</tspan></text>
+<rect x="1100" y="690" width="760" height="250" rx="6" fill="#f8fafc" stroke="#166534" stroke-width="1.6" stroke-dasharray="7 5"/>
+<text x="1120" y="712.0" font-size="17" text-anchor="start" font-weight="bold" fill="#166534" dominant-baseline="central"><tspan x="1120" dy="0">Laptop (runs locally, no cloud needed)</tspan></text>
+<rect x="1115" y="750" width="230" height="150" rx="6" fill="#dcfce7" stroke="#166534" stroke-width="1.6"/>
+<text x="1230.0" y="780.0" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1230.0" dy="0">Python server</tspan></text>
+<text x="1230.0" y="829.375" font-size="17" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1230.0" dy="0">server.py</tspan><tspan x="1230.0" dy="21.25">port 8000</tspan></text>
+<rect x="1375" y="750" width="230" height="150" rx="6" fill="#dcfce7" stroke="#166534" stroke-width="1.6"/>
+<text x="1490.0" y="780.0" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1490.0" dy="0">SQLite database</tspan></text>
+<text x="1490.0" y="829.375" font-size="17" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1490.0" dy="0">trolley.db</tspan><tspan x="1490.0" dy="21.25">bills, items</tspan></text>
+<rect x="1635" y="750" width="210" height="150" rx="6" fill="#dcfce7" stroke="#166534" stroke-width="1.6"/>
+<text x="1740.0" y="780.0" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1740.0" dy="0">Web dashboard</tspan></text>
+<text x="1740.0" y="829.375" font-size="17" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1740.0" dy="0">Bill list</tspan><tspan x="1740.0" dy="21.25">View / Print</tspan></text>
+<polyline points="1060,790 1115,790" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="1345,825 1375,825" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<polyline points="1605,825 1635,825" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round" marker-end="url(#ah)"/>
+<text x="40" y="975.0" font-size="15" text-anchor="start" font-weight="bold" fill="#000000" font-style="italic" dominant-baseline="central"><tspan x="40" dy="0">Payment is not verified: the OLED shows a fixed UPI QR; the bill is only saved and displayed.</tspan></text>
+</svg>

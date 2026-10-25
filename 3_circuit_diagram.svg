@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1080" viewBox="0 0 1500 1080" font-family='Arial, "Liberation Sans", Helvetica, sans-serif'>
+<defs><marker id="ah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L10,4 L0,8 z" fill="#1b1f23"/></marker></defs>
+<rect width="1500" height="1080" fill="#ffffff"/>
+<text x="40" y="34.0" font-size="30" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="40" dy="0">Smart Shopping Trolley - Circuit Diagram</tspan></text>
+<rect x="540" y="110" width="380" height="660" rx="6" fill="#dbeafe" stroke="#1f3a5f" stroke-width="2.4"/>
+<text x="730" y="606.25" font-size="22" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="730" dy="0">ESP32 DevKit</tspan><tspan x="730" dy="27.5">(ESP32 Dev Module)</tspan></text>
+<text x="730" y="680.625" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000" font-style="italic" dominant-baseline="central"><tspan x="730" dy="0">EN/RESET button restarts</tspan><tspan x="730" dy="18.75">the trolley and clears the cart</tspan></text>
+<polyline points="730,110 730,94" fill="none" stroke="#dc2626" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="721,94 739,94" fill="none" stroke="#dc2626" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="730" y="82.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#dc2626" dominant-baseline="central"><tspan x="730" dy="0">3V3</tspan></text>
+<text x="730" y="128.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="730" dy="0">3V3</tspan></text>
+<polyline points="730,770 730,780" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="730,780 730,792" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="720,792 740,792" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="724,797 736,797" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="728,802 732,802" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="730" y="752.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="730" dy="0">GND</tspan></text>
+<text x="730" y="832.0" font-size="17" text-anchor="middle" font-weight="bold" fill="#000000" font-style="italic" dominant-baseline="central"><tspan x="730" dy="0">Power: USB 5 V or regulated supply</tspan></text>
+<rect x="90" y="120" width="220" height="300" rx="6" fill="#e0f2fe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="200" y="140.0" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="200" dy="0">MFRC522 RFID reader</tspan></text>
+<text x="298" y="170.0" font-size="17" text-anchor="end" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="298" dy="0">SDA / SS</tspan></text>
+<circle cx="310" cy="170" r="4" fill="#1b1f23"/>
+<circle cx="540" cy="170" r="4" fill="#1b1f23"/>
+<text x="552" y="170.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="552" dy="0">GPIO 5</tspan></text>
+<polyline points="310,170 540,170" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="420.7" y="150.5" width="28.6" height="21.0" fill="#ffffff" opacity="0.92"/>
+<text x="435" y="161.0" font-size="20" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="435" dy="0">SS</tspan></text>
+<text x="298" y="220.0" font-size="17" text-anchor="end" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="298" dy="0">RST</tspan></text>
+<circle cx="310" cy="220" r="4" fill="#1b1f23"/>
+<circle cx="540" cy="220" r="4" fill="#1b1f23"/>
+<text x="552" y="220.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="552" dy="0">GPIO 4</tspan></text>
+<polyline points="310,220 540,220" fill="none" stroke="#7c3aed" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="416.05" y="200.5" width="37.9" height="21.0" fill="#ffffff" opacity="0.92"/>
+<text x="435" y="211.0" font-size="20" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="435" dy="0">RST</tspan></text>
+<text x="298" y="270.0" font-size="17" text-anchor="end" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="298" dy="0">SCK</tspan></text>
+<circle cx="310" cy="270" r="4" fill="#1b1f23"/>
+<circle cx="540" cy="270" r="4" fill="#1b1f23"/>
+<text x="552" y="270.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="552" dy="0">GPIO 18</tspan></text>
+<polyline points="310,270 540,270" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="416.05" y="250.5" width="37.9" height="21.0" fill="#ffffff" opacity="0.92"/>
+<text x="435" y="261.0" font-size="20" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="435" dy="0">SCK</tspan></text>
+<text x="298" y="320.0" font-size="17" text-anchor="end" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="298" dy="0">MOSI</tspan></text>
+<circle cx="310" cy="320" r="4" fill="#1b1f23"/>
+<circle cx="540" cy="320" r="4" fill="#1b1f23"/>
+<text x="552" y="320.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="552" dy="0">GPIO 23</tspan></text>
+<polyline points="310,320 540,320" fill="none" stroke="#059669" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="411.4" y="300.5" width="47.2" height="21.0" fill="#ffffff" opacity="0.92"/>
+<text x="435" y="311.0" font-size="20" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="435" dy="0">MOSI</tspan></text>
+<text x="298" y="370.0" font-size="17" text-anchor="end" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="298" dy="0">MISO</tspan></text>
+<circle cx="310" cy="370" r="4" fill="#1b1f23"/>
+<circle cx="540" cy="370" r="4" fill="#1b1f23"/>
+<text x="552" y="370.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="552" dy="0">GPIO 19</tspan></text>
+<polyline points="310,370 540,370" fill="none" stroke="#db2777" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="411.4" y="350.5" width="47.2" height="21.0" fill="#ffffff" opacity="0.92"/>
+<text x="435" y="361.0" font-size="20" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="435" dy="0">MISO</tspan></text>
+<text x="200" y="400.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000" font-style="italic" dominant-baseline="central"><tspan x="200" dy="0">IRQ: not connected</tspan></text>
+<polyline points="200,120 200,104" fill="none" stroke="#dc2626" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="191,104 209,104" fill="none" stroke="#dc2626" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="200" y="92.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#dc2626" dominant-baseline="central"><tspan x="200" dy="0">3V3</tspan></text>
+<text x="200" y="157.0" font-size="2" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="200" dy="0"></tspan></text>
+<polyline points="200,420 200,430" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="200,430 200,442" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="190,442 210,442" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="194,447 206,447" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="198,452 202,452" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="90" y="480" width="220" height="80" rx="6" fill="#e0f2fe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="200" y="498.0" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="200" dy="0">Active buzzer</tspan></text>
+<text x="298" y="520.0" font-size="17" text-anchor="end" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="298" dy="0">+ (signal)</tspan></text>
+<circle cx="310" cy="520" r="4" fill="#1b1f23"/>
+<circle cx="540" cy="520" r="4" fill="#1b1f23"/>
+<text x="552" y="520.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="552" dy="0">GPIO 27</tspan></text>
+<polyline points="310,520 540,520" fill="none" stroke="#0891b2" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="402.1" y="500.5" width="65.8" height="21.0" fill="#ffffff" opacity="0.92"/>
+<text x="435" y="511.0" font-size="20" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="435" dy="0">BUZZER</tspan></text>
+<text x="200" y="545.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="200" dy="0">- terminal to GND</tspan></text>
+<polyline points="200,560 200,570" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="200,570 200,582" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="190,582 210,582" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="194,587 206,587" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="198,592 202,592" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="90" y="640" width="220" height="70" rx="6" fill="#e0f2fe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="200" y="658.0" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="200" dy="0">Checkout push button</tspan></text>
+<text x="298" y="690.0" font-size="17" text-anchor="end" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="298" dy="0">pin 1</tspan></text>
+<text x="120" y="690.0" font-size="15" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="120" dy="0">pin 2 to GND</tspan></text>
+<circle cx="310" cy="690" r="4" fill="#1b1f23"/>
+<circle cx="540" cy="690" r="4" fill="#1b1f23"/>
+<text x="552" y="690.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="552" dy="0">GPIO 14</tspan></text>
+<polyline points="310,690 540,690" fill="none" stroke="#ea580c" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="402.1" y="670.5" width="65.8" height="21.0" fill="#ffffff" opacity="0.92"/>
+<text x="435" y="681.0" font-size="20" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="435" dy="0">BUTTON</tspan></text>
+<polyline points="200,710 200,720" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="200,720 200,732" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="190,732 210,732" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="194,737 206,737" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="198,742 202,742" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1090" y="110" width="340" height="160" rx="6" fill="#e0f2fe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="1260" y="128.75" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1260" dy="0">SSD1306 OLED</tspan><tspan x="1260" dy="22.5">I2C address 0x3C</tspan></text>
+<text x="1102" y="170.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1102" dy="0">SDA</tspan></text>
+<circle cx="1090" cy="170" r="4" fill="#1b1f23"/>
+<circle cx="920" cy="170" r="4" fill="#1b1f23"/>
+<text x="908" y="170.0" font-size="17" text-anchor="end" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="908" dy="0">GPIO 21</tspan></text>
+<polyline points="920,170 1090,170" fill="none" stroke="#2563eb" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="967.45" y="150.5" width="75.1" height="21.0" fill="#ffffff" opacity="0.92"/>
+<text x="1005" y="161.0" font-size="20" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1005" dy="0">I2C SDA</tspan></text>
+<text x="1102" y="220.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1102" dy="0">SCL</tspan></text>
+<circle cx="1090" cy="220" r="4" fill="#1b1f23"/>
+<circle cx="920" cy="220" r="4" fill="#1b1f23"/>
+<text x="908" y="220.0" font-size="17" text-anchor="end" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="908" dy="0">GPIO 22</tspan></text>
+<polyline points="920,220 1090,220" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="967.45" y="200.5" width="75.1" height="21.0" fill="#ffffff" opacity="0.92"/>
+<text x="1005" y="211.0" font-size="20" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1005" dy="0">I2C SCL</tspan></text>
+<polyline points="1260,110 1260,94" fill="none" stroke="#dc2626" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="1251,94 1269,94" fill="none" stroke="#dc2626" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="1260" y="82.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#dc2626" dominant-baseline="central"><tspan x="1260" dy="0">3V3</tspan></text>
+<polyline points="1260,270 1260,280" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="1260,280 1260,292" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="1250,292 1270,292" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="1254,297 1266,297" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="1258,302 1262,302" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1090" y="360" width="340" height="220" rx="6" fill="#e0f2fe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="1260" y="380.0" font-size="18" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1260" dy="0">HX711 amplifier</tspan></text>
+<text x="1102" y="420.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1102" dy="0">DT / DOUT</tspan></text>
+<circle cx="1090" cy="420" r="4" fill="#1b1f23"/>
+<circle cx="920" cy="420" r="4" fill="#1b1f23"/>
+<text x="908" y="420.0" font-size="17" text-anchor="end" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="908" dy="0">GPIO 32</tspan></text>
+<polyline points="920,420 1090,420" fill="none" stroke="#059669" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="990.7" y="400.5" width="28.6" height="21.0" fill="#ffffff" opacity="0.92"/>
+<text x="1005" y="411.0" font-size="20" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1005" dy="0">DT</tspan></text>
+<text x="1102" y="470.0" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1102" dy="0">SCK / CLK</tspan></text>
+<circle cx="1090" cy="470" r="4" fill="#1b1f23"/>
+<circle cx="920" cy="470" r="4" fill="#1b1f23"/>
+<text x="908" y="470.0" font-size="17" text-anchor="end" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="908" dy="0">GPIO 33</tspan></text>
+<polyline points="920,470 1090,470" fill="none" stroke="#db2777" stroke-width="2.2" stroke-linejoin="round"/>
+<rect x="986.05" y="450.5" width="37.9" height="21.0" fill="#ffffff" opacity="0.92"/>
+<text x="1005" y="461.0" font-size="20" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1005" dy="0">SCK</tspan></text>
+<polyline points="1330,360 1330,344" fill="none" stroke="#dc2626" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="1321,344 1339,344" fill="none" stroke="#dc2626" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="1330" y="332.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#dc2626" dominant-baseline="central"><tspan x="1330" dy="0">3V3</tspan></text>
+<polyline points="1130,580 1130,590" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="1130,590 1130,602" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="1120,602 1140,602" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="1124,607 1136,607" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="1128,612 1132,612" fill="none" stroke="#1b1f23" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="1150" y="563.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1150" dy="0">E+</tspan></text>
+<polyline points="1150,580 1150,690" fill="none" stroke="#111827" stroke-width="2.6" stroke-linejoin="round"/>
+<text x="1210" y="563.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1210" dy="0">E-</tspan></text>
+<polyline points="1210,580 1210,690" fill="none" stroke="#111827" stroke-width="2.6" stroke-linejoin="round"/>
+<text x="1270" y="563.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1270" dy="0">A-</tspan></text>
+<polyline points="1270,580 1270,690" fill="none" stroke="#111827" stroke-width="2.6" stroke-linejoin="round"/>
+<text x="1330" y="563.0" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1330" dy="0">A+</tspan></text>
+<polyline points="1330,580 1330,690" fill="none" stroke="#111827" stroke-width="2.6" stroke-linejoin="round"/>
+<rect x="1090" y="690" width="340" height="80" rx="6" fill="#e0f2fe" stroke="#1f3a5f" stroke-width="1.6"/>
+<text x="1260" y="719.375" font-size="17" text-anchor="middle" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="1260" dy="0">Load cell</tspan><tspan x="1260" dy="21.25">(4-wire strain-gauge bridge)</tspan></text>
+<text x="1260" y="800.625" font-size="15" text-anchor="middle" font-weight="bold" fill="#000000" font-style="italic" dominant-baseline="central"><tspan x="1260" dy="0">Match E+/E-/A+/A- to the wire colours</tspan><tspan x="1260" dy="18.75">using the load-cell datasheet</tspan></text>
+<text x="40" y="846.875" font-size="17" text-anchor="start" font-weight="bold" fill="#000000" dominant-baseline="central"><tspan x="40" dy="0">Notes</tspan><tspan x="40" dy="21.25">- Every 3V3 symbol connects to the ESP32 3V3 pin; every ground symbol to common GND.</tspan><tspan x="40" dy="21.25">- MFRC522 is a 3.3 V device: never power it from 5 V.</tspan><tspan x="40" dy="21.25">- Buzzer on GPIO 27 directly; use a transistor driver if its current exceeds the GPIO limit.</tspan><tspan x="40" dy="21.25">- Button: GPIO 14 to GND with INPUT_PULLUP (reads LOW when pressed).</tspan><tspan x="40" dy="21.25">- Check the OLED and HX711 module supply ratings before powering.</tspan></text>
+</svg>
