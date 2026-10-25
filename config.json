@@ -1,7 +1,7 @@
 {
   "store_name": "SMART TROLLEY STORE",
   "port": 8000,
-  "dashboard_user": "smarttrolley",
-  "dashboard_password": "1234",
+  "dashboard_user": "user name",
+  "dashboard_password": "password",
   "device_token": "pQcmAzke7h0IjcYniFjMAsQg2vtgP7vv"
 }
